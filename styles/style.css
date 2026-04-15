@@ -71,7 +71,7 @@
   color: #fff;
   font-weight: 700;
   font-size: 100px;
-  line-height: 1;
+  line-height: 1.15;
   letter-spacing: 0.3em;
   text-transform: uppercase;
 }
@@ -82,19 +82,22 @@
 
 .aligned-text_center {
   margin-top: 20px;
-  line-height: 1;
   text-align: center;
 }
 
 .aligned-text_right {
   margin-top: 20px;
-  line-height: 1;
   text-align: right;
 }
 
 .letter-spacing-extended {
   letter-spacing: 0.6em;
 }
+
+.no-letter-spacing {
+  letter-spacing: 0;
+}
+
 
 .cover__description {
   position: relative;
