@@ -62,11 +62,12 @@
 .overlay {
   position: absolute;
   inset: 0;
-  z-index: -1;
   background-color: rgb(0 0 0 / 0.6);
 }
 
 .cover__title {
+  position: relative;
+  z-index: 1;
   color: #fff;
   font-weight: 700;
   font-size: 100px;
@@ -98,6 +99,8 @@
 }
 
 .cover__description {
+  position: relative;
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -180,6 +183,8 @@
 }
 
 .card__title {
+  position: relative;
+  z-index: 1;
   color: #fff;
   font-weight: 700;
   font-size: 22px;
@@ -189,6 +194,8 @@
 }
 
 .card__text {
+  position: relative;
+  z-index: 1;
   color: #fff;
   font-size: 20px;
   line-height: 120%;
@@ -228,7 +235,7 @@
 }
 
 .about__title {
-  margin-top: 101px;
+  margin-top: 100px;
   margin-bottom: 100px;
   font-weight: 700;
   font-size: 40px;
@@ -270,6 +277,11 @@
   list-style: none;
 }
 
+.footer__social-link {
+  display: block;
+}
+
 .footer__social-icon {
+  display: block;
   width: 48px;
 }
